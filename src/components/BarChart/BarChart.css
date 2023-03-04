@@ -1,0 +1,42 @@
+.bar-chart-container {
+    background-color: #f8f9f9;
+    padding: 2rem;
+    height: 60vh;
+    border: solid 1px #0003;
+    border-radius: 0.25rem;
+}
+
+.bar-chart-container svg {
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+}
+
+.bar-color-detail {
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+
+.bar-color-detail h4{
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.bar-color-detail .color-detail{
+    display: flex;
+    align-items: center;
+}
+
+.bar-color-detail .color-detail .blue-color{
+    width: 1rem;
+    height: 1rem;
+    background-color: #1984c5;
+    margin: 0.5rem;
+}
+
+.bar-color-detail .color-detail .red-color{
+    width: 1rem;
+    height: 1rem;
+    background-color: #c23728;
+    margin: 0.5rem;
+}
